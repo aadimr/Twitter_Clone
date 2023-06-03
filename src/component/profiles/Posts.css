@@ -1,0 +1,237 @@
+
+/* Posts style */
+.posts {
+    width: 50%;
+    margin-left: 25%;
+    border-right: 1px solid #e6ecf0;
+    
+  }
+  .posts__home {
+    
+    width: 50%;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #e6ecf0;
+    font-size: 18px;
+    background: #fff;
+   
+    border-right: 1px solid #e6ecf0;
+  }
+  .create {
+    padding-top: 70px;
+    border-bottom: 1px solid #e6ecf0;
+    padding-bottom: 20px;
+  }
+  .create__first {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .create__img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .create__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .create__input {
+    margin-left: 20px;
+  }
+  .create__control {
+    border: none;
+    outline: none;
+  }
+  .create__second {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+  }
+  .create__icons {
+    width: 50%;
+  }
+  .ic {
+    margin: 0 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1da1f2;
+  }
+  .create__btn {
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+  }
+  .create__btn a {
+    text-decoration: none;
+    background: #1da1f2;
+    color: #fff;
+    border-radius: 50px;
+    outline: none;
+    padding: 10px 20px;
+  }
+  
+  .postss {
+    padding: 20px;
+    border-bottom: 1px solid #e6ecf0;
+    border: 1px solid #eee;
+    /* border: red 1px solid; */
+  }
+  .postss:hover{
+    background-color: #f4f3f3f4;
+  }
+  .postss__first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+  }
+  .posts__first__img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .posts__first__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .posts__first__name {
+    width: auto;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .posts__first__username {
+    /* margin-right: -4rem; */
+    font-family: inherit;
+    /* color: silver; */
+    color: rgb(83, 100, 113);
+    font-weight: 300;
+    font-family: inherit;
+    /* border: red 1px solid; */
+   width:20vw;
+  
+  }
+  .user_names{
+    /* border: red 1px solid; */
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    
+  }
+  .posts__first__username span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 14px;
+    /* border: red 1px solid; */
+   
+  }
+  .verify {
+    /* margin-left: 3px; */
+    color: #1da1f2;
+    /* position: relative;
+    left: -5px;
+    top: .7rem; */
+  }
+  .user_names{
+    display: flex;
+    align-items: center;
+    padding-left: .3rem;
+   }
+  .postss__details {
+    margin: 8px 30px;
+    overflow: hidden;
+    
+  }
+  .top_detail{
+    display: flex;
+    /* align-items: center; */
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+  
+  .postss__details__img {
+    width: 100%;
+  
+    /* border-radius: 10px; */
+    margin-top: 6px;
+    cursor: pointer;
+  }
+  .postss__details__msg{
+    font-family: sans-serif;
+    color: #0F1419;
+    
+  }
+  .postss__details__img img {
+    /* border: 2px red solid; */
+    border-radius: 15px;
+    width: 100%;
+  }
+  .reactions {
+    display: flex;
+    margin: 8px 0;
+    justify-content: space-between;
+    align-items: center;
+    /* color: silver; */
+    color: #536471;
+    font-size: larger;
+    font-family: inherit;
+  }
+  
+  .comment:hover{
+     color: rgb(50, 190, 206);
+     cursor: pointer;
+  }
+  .retweet:hover{
+     color: rgb(113, 211, 113);
+     cursor: pointer;
+  }
+  .like:hover{
+     color: rgb(200, 54, 54);
+     cursor: pointer;
+  }
+  .view{
+    font-size: 10px;
+  }
+  .views:hover{
+     color:rgb(50, 190, 206);
+     cursor: pointer;
+  }
+  .share:hover{
+     color:rgb(50, 190, 206);
+     cursor: pointer;
+  }
+  .more{
+    position:absolute;
+  
+    right:1rem;
+  
+  }
+  
+  
+  
+  @media screen and (max-width:400px) {
+    .postss{
+      padding: 10px;
+    }
+    .user_names{
+     display: flex;
+     align-items: center;
+    }
+    .user{
+      font-size: .1rem;
+      display: flex;
+      gap: 10px;
+    }
+   
+    
+  }

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:rgb(39, 141, 205);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: .7rem;
+}
+.title{
+    margin:0 2rem ;
+    font-size: 1rem;
+    color: #fff;
+}
+.userField{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.register{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    color:#000;
+    margin: 0 1rem;
+    background-color: #fff;
+}
+
+.login{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    color:#fff;
+    margin: 0 1rem;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    .container{
+        padding: 1rem;
+    }
+    
+    .title {
+      display: none;
+    }
+    .register{
+        margin:0 1rem ;
+        width: 100%;
+    }
+    .login{
+        margin:0 1rem ;
+        width: 100%;
+    }
+}

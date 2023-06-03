@@ -1,0 +1,159 @@
+
+.main_Dive{
+    position: fixed;
+    padding: 10px;
+    margin-left: 3.5rem;
+    
+}
+.tweet_logo{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:#000
+}
+.list{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    /* margin-left: 3rem; */
+    list-style: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    height: 4vh;
+   
+   
+}
+.icons{
+    margin-right: 1rem;
+    font-size: 1.6rem;
+}
+.logo{
+    color:rgb(26, 133, 220);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.tweetBtn{
+    margin-top: 2rem;
+}
+
+.list:hover{
+    background-color: #dfe1e3;
+    border-radius: 2rem;
+    width: 10vw;
+}
+.userData{
+    border-radius: 50px;
+    margin-top: 4rem;
+    width: 18.5vw;
+    height: 10vh;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.pimage{
+    /* border: 1px red solid; */
+    width: 50px;
+    /* height: 11vh; */
+    /* margin-top: 8px; */
+    /* padding-top: 8px ; */
+
+}
+.username{
+    /* border: 1px red solid; */
+    width: 15vw;
+    padding-top: 5px;
+}
+.name{
+    font-weight: 700;
+    font-size: medium;
+    font-family:  inherit;
+}
+.email{
+    font-weight: 400;
+    font-size: 13px;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+.userData:hover{
+    background-color: #dfe1e3;
+}
+.popoverName{
+    font-size: small;
+    font-weight: 600;
+    margin: 1rem;
+    /* padding: 1rem; */
+    height: 3rem;
+}
+@media screen and (max-width: 1000px) {
+    .list span{
+        display:none;
+    }
+    .icons:hover{
+       border-radius: 50%;   
+    }
+    .list:hover{
+        width:1.7rem;
+    }
+    .main_Dive{
+        margin-left: 1.5rem;
+        height: 100vh;
+    }
+    .tweetBtn Button{
+        border-radius: 50%;
+        width: 1.6rem;
+    }
+    .name{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .More{
+        display: none;
+    }
+    .userData:hover{
+        background-color: transparent;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .main_Dive{
+        margin-left:2.3rem; 
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .main_Dive{
+        margin-left:1rem;   
+    }
+}
+    
+
+
+@media screen and (max-width: 400px) {
+    .list {
+        display: none;
+    }
+    .main_Dive{
+        margin-left: 0;
+    }
+    .tweetBtn Button{
+       display: none;
+    }   
+    .tweet_logo{
+        display: none;
+    }
+
+}

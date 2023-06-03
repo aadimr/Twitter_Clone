@@ -1,0 +1,115 @@
+.main_div{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form_box{
+    /* border:2px red solid; */
+    width: 40vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 15px;
+    
+    
+}
+.header{
+   
+    /* text-align: center; */
+    display: inline-flex;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.logo {
+    /* border:2px red solid; */
+    text-align: center;
+    width: 36vw;
+}
+.cross{
+    /* border:2px red solid; */
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.form{
+    /* border:2px red solid; */
+    height: 90%;
+    margin: 0 8em;
+    text-align: center;
+    display: flex;
+  
+    flex-direction: column;
+    gap: 20px
+}
+.loginForm{
+    /* border:2px red solid; */
+    height: 75vh;
+    margin: 0 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.signupColor{
+    color: rgb(29, 155, 240);
+}
+
+
+@media screen and (max-width: 1050px) {
+
+.logo{
+    margin-left: 2rem;
+}
+    .form_box{
+        width: 55vw;
+        /* border: 1px red solid; */
+    }
+    .form{
+        /* border: 1px red solid; */
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .main_div{
+        background-color: white;
+    }
+    .logo{
+        margin-top: -2rem;
+        margin-left: 12rem;
+        display: none;
+    }
+    .cross{
+        margin-top: -15px;
+        margin-left: -3rem;
+        display: none;
+    }
+    .form_box{
+        width: 80%;
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form{
+        margin-left: 3rem;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:300px) {
+    .form{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    
+}

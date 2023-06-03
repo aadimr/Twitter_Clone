@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    width: 25%;
+}
+.imageDiv{
+    /* border: red 2px solid; */
+    width: 20vw;
+    /* height: 30vh; */
+}
+.div2{
+    /* border: red 2px solid; */
+    width: 45%;
+    border: 1px solid #eee;
+    border-bottom: none;
+    position: sticky;
+    left: 25%;
+}
+.div3{
+    /* border: red 2px solid; */
+    position: fixed;
+    top: 0rem;
+    right: 0;
+    width: 30%;
+}
+.home{
+    /* border: red 2px solid; */
+    height: 2rem;
+    margin:  1rem 0;
+    padding: 0 10px;
+    /* z-index: 999;
+    background: transparent; */
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight:700;
+}
+.insideHome{
+    /* border: red 2px solid; */
+    display: flex;
+}
+.transparent{
+    backdrop-filter: blur(90px);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.foryou{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+    font-family: inherit;
+    height: 2rem;
+   
+    cursor: pointer;
+    /* border: red 2px solid; */
+}
+.following{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+    height: 2rem;
+   cursor: pointer;
+    /* border: red 2px solid; */
+}
+.following:hover{
+    background-color:gainsboro;
+}
+.foryou:hover{
+    background-color: gainsboro;
+}
+
+.textHeader{
+   display: flex;
+   /* border: red 2px solid; */
+   height: auto;
+   padding:  0 10px;
+   border: 1px solid #eee;
+   /* margin-top: 5rem; */
+
+}
+.twwetBox__input{
+    padding: 10px 0;
+    display: flex;
+    border: red 2px solid;
+    height: auto;
+    border: none !important;
+    width: 100%;
+    padding: 1rem;
+
+   
+    
+}
+.twwetBox__input:active{
+   border: 1px solid #fff;
+}
+.twwetBox__input Textarea{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.cancel__btn{
+    font-size: 1rem;
+    /* color: #fff; */
+    cursor: pointer;
+    
+}
+.cancel__btn:hover{
+    background-color:gainsboro;
+}
+.globalIcon{
+    color:#1d9bf0;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* margin-left: 25px; */
+    margin-bottom: .5rem;
+}
+.profileSec{
+    /* border: red 2px solid; */
+    width: 10%;
+}
+.commentText{
+    /* border: red 2px solid; */
+    width: 90%;
+    padding: o 20px;
+    margin-left: 1rem;
+    
+}
+.commentText input{
+    width: 95%;
+    height: 3rem;
+    padding: 0;
+    border: none;
+}
+.texticons{
+    border: 1px solid #eee;
+    height: 11vh;
+    /* width: 38.5vw; */
+    margin-top: 1rem;
+    display: flex;
+}
+.icons{
+    /* border: red 2px solid; */
+    padding-top: 10px;
+    margin-top: 1rem;
+    width: 70%;
+}
+.Twittebtn{
+    margin-top: .5rem;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hrline{
+    border:  #1DA1F2 3px solid;
+    border-radius: 3px;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    width: 6vw;
+  }
+  .bottomBar{
+    display: none;
+  }
+
+  @media screen and (max-width:1000px) {
+    .div2{
+        border: 1px solid #eee;
+        border-bottom: none;
+        margin: 0;
+    }
+    
+    .div3{
+        display: none;
+    }
+    
+ }
+ @media screen and (max-width:800px) {
+    .div2{
+      
+        width: 60%;
+     
+    }
+    .hrline{
+        margin-left: 5.5rem;
+        margin-top: 1rem;
+        width: 6vw;
+      }
+ }
+
+ @media screen and (max-width:450px) {
+
+    .div1{
+        display:none;
+    }
+    .div2{
+        border: 1px solid #eee;
+        border-bottom: none;
+        left: 5rem;
+        width: 100vw;
+        
+    }
+    .hrline{
+        width: 8vw;
+      }
+    .bottomBar{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: #eee;
+     }
+
+    .bottom_icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1.6rem;
+        font-weight:700 ;
+        cursor: pointer;
+     }
+     .bottomBarList{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        align-items: center;
+     }
+
+     .textHeader{
+        display: none;
+     }
+     .transparent{
+        padding-top: 2rem;
+        position:sticky;
+        width: 100%;
+     }
+     .home{
+        display: none;
+     }
+    
+ }
